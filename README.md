@@ -1,6 +1,6 @@
 # lab22023
 
-
+[![Unit Tests](https://github.com/diegobotia/lab22023/actions/workflows/testing.yml/badge.svg?branch=mi-rama)](https://github.com/diegobotia/lab22023/actions/workflows/testing.yml)
 Implementation of a Simple Calculator with the next operations:
 
 * Add
