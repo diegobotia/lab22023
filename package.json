@@ -1,0 +1,31 @@
+{
+  "name": "lab22023",
+  "version": "1.0.0",
+  "description": "Calculadora Basica con NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegobotia/lab22023.git"
+  },
+  "keywords": [
+    "Suma",
+    "resta",
+    "multiplicacion",
+    "division",
+    "y",
+    "raiz",
+    "cuadrada"
+  ],
+  "author": "DB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegobotia/lab22023/issues"
+  },
+  "homepage": "https://github.com/diegobotia/lab22023#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
