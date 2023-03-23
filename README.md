@@ -3,6 +3,19 @@
 [![Unit Tests](https://github.com/diegobotia/lab22023/actions/workflows/testing.yml/badge.svg?branch=mi-rama)](https://github.com/diegobotia/lab22023/actions/workflows/testing.yml)
 Implementation of a Simple Calculator with the next operations:
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_lab22023&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=diegobotia_lab22023)
+
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_lab22023&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=diegobotia_lab22023)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_lab22023&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=diegobotia_lab22023)
+
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_lab22023&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=diegobotia_lab22023)
+
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_lab22023&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=diegobotia_lab22023)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_lab22023&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=diegobotia_lab22023)
+
+
 * Add
 * Minus
 * Multiply
