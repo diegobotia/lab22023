@@ -1,26 +1,26 @@
 name: Unit Tests 
 
-on: 
-   workflow_dispatch:
-    push:
-       branches:
-        - mi-rama
-    pull_request:
-       types: [opened, synchronize, reopened]
-
+on:
+  workflow_dispatch:
+  push:
+     branches:
+       - mi-rama
+  pull_request:
+    types: [opened, synchronize, reopened]
+      
 jobs:
   sonarcloud:
     name: sonarcloud
-    runs-on: ubuntu-latest  
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0      
-      - name: install dependencies
+          fetch-depth: 0         
+      - name: Install dependencies
         run: npm install
-      - name: npm ci  
+      - name: npm ci
         run: npm ci 
-      - name: test
+      - name: tests
         run: npm test
       - name: Test and coverage
         run: npm run cover
