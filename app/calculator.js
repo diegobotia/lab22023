@@ -1,23 +1,21 @@
 'use strict';
 
-function add(a,b){return a+b;}
-function minus(a,b){return a-b;}
-function raiz(a){return Math.sqrt(a);}
-function multiply(a,b){return a*b;}
-function divide(a,b){
-    if(b===0){
-        return new Error("No puedo dividir por cero");
-
-    }else {
-        return a/b;
+function add(a, b) { return a + b; }
+function subtract(a, b) { return a - b; }
+function squareRoot(a) { return Math.sqrt(a); }
+function multiply(a, b) { return a * b; }
+function divide(a, b) {
+    if (b === 0) {
+        throw new Error("Cannot divide by zero");
+    } else {
+        return a / b;
     }
-
 }
 
 module.exports = {
     add,
-    minus,
-    raiz,
+    subtract,
+    squareRoot,
     multiply,
     divide
 }
